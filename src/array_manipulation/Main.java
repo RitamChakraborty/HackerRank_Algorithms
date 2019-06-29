@@ -1,5 +1,5 @@
 // https://www.hackerrank.com/challenges/crush/problem
-// Todo: Reduce the time complexity
+// Todo: Reduce time complexity
 
 package array_manipulation;
 
