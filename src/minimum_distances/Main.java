@@ -4,26 +4,31 @@ package minimum_distances;
 
 import input_reader.InputReader;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
-    private static int minimumDistances(int[] a) {
-        int n = a.length;
-        List<Integer> list = new ArrayList<>();
+    private static int minimumDistances(int[] arr) {
+        int n = arr.length;
+        Integer min = null;
+        Map<Integer, Integer> map = new LinkedHashMap<>();
 
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = (i + 1); j < n; j++) {
-                if (a[i] == a[j]) {
-                    list.add(Math.abs(i - j));
+        for (int i = 0; i < n; i++) {
+            if (!map.keySet().contains(arr[i])) {
+                map.put(arr[i], i);
+            } else {
+                int dis = Math.abs(i - map.get(arr[i]));
+                if (min == null) {
+                    min = dis;
+                } else {
+                    if (dis < min) {
+                        min = dis;
+                    }
                 }
             }
         }
 
-        return list.size() == 0 ? - 1 : Collections.min(list);
+        return min == null ? -1 : min;
     }
 
     public static void main(String[] args) {
