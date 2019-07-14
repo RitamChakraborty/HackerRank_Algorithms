@@ -5,11 +5,14 @@ package new_year_chaos;
 
 import input_reader.InputReader;
 
+import java.util.Arrays;
+
 public class Main {
 
     private static void minimumBribes(int[] arr) {
         int count = 0;
         int n = arr.length - 1;
+        Arrays.sort(arr);
 
         for (int i = n; i >= 0; i--) {
             int step = 0;
@@ -21,11 +24,11 @@ public class Main {
                     arr[j + 1] = temp;
                     step++;
                 }
-            }
 
-            if (step > 2) {
-                System.out.println("Too chaotic");
-                return;
+                if (step > 2) {
+                    System.out.println("Too chaotic");
+                    return;
+                }
             }
 
             count += step;
