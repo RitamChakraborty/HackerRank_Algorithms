@@ -12,18 +12,17 @@ public class Main {
     private static void minimumBribes(int[] arr) {
         int count = 0;
         int n = arr.length - 1;
-        Arrays.sort(arr);
 
         for (int i = n; i >= 0; i--) {
             int step = 0;
 
             for (int j = i; j < n; j++) {
                 if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+                    swap(arr, j, j + 1);
                     step++;
                 }
+
+                System.out.println(Arrays.toString(arr));
 
                 if (step > 2) {
                     System.out.println("Too chaotic");
@@ -35,6 +34,12 @@ public class Main {
         }
 
         System.out.println(count);
+    }
+
+    private static void swap(int[] arr, int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
     }
 
     public static void main(String[] args) {
