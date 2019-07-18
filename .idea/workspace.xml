@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a69d63e1-5549-4d65-919a-497113a02ae5" name="Default Changelist" comment="">
+    <list default="true" id="a69d63e1-5549-4d65-919a-497113a02ae5" name="Default Changelist" comment="Try another approach for New Year Chaos">
+      <change afterPath="$PROJECT_DIR$/src/minimum_swaps_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minimum_swaps_2/testcase.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/array_manipulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/array_manipulation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/array_manipulation/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/array_manipulation/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_manipulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array_manipulation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/new_year_chaos/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/new_year_chaos/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -33,24 +34,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/minimum_distances/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/minimum_swaps_2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="870">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/array_manipulation/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#1391#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -58,10 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array_manipulation/testcase.txt">
+        <entry file="file://$PROJECT_DIR$/src/minimum_swaps_2/testcase.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -93,12 +81,14 @@
         <option value="$PROJECT_DIR$/src/sparse_arrays/Main.java" />
         <option value="$PROJECT_DIR$/src/sparse_arrays/testcase.txt" />
         <option value="$PROJECT_DIR$/src/new_year_chaos/testcase.txt" />
-        <option value="$PROJECT_DIR$/src/new_year_chaos/Main.java" />
         <option value="$PROJECT_DIR$/src/minimum_distances/testcase.txt" />
-        <option value="$PROJECT_DIR$/src/README.md" />
         <option value="$PROJECT_DIR$/src/minimum_distances/Main.java" />
         <option value="$PROJECT_DIR$/src/array_manipulation/testcase.txt" />
         <option value="$PROJECT_DIR$/src/array_manipulation/Main.java" />
+        <option value="$PROJECT_DIR$/src/new_year_chaos/Main.java" />
+        <option value="$PROJECT_DIR$/src/minimum_swaps_2/testcase.txt" />
+        <option value="$PROJECT_DIR$/src/minimum_swaps_2/Main.java" />
+        <option value="$PROJECT_DIR$/src/README.md" />
       </list>
     </option>
   </component>
@@ -112,7 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,7 +120,7 @@
               <item name="Hacker Rank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hacker Rank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array_manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="minimum_swaps_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hacker Rank" type="b2602c69:ProjectViewProjectNode" />
@@ -141,8 +132,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="new_year_chaos.Main" />
       <module name="Hacker Rank" />
@@ -197,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_left_rotation.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minimum_swaps_2.Main" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array_left_rotation.*" />
+          <option name="PATTERN" value="minimum_swaps_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +261,9 @@
       <workItem from="1562827620616" duration="106000" />
       <workItem from="1563096057598" duration="3253000" />
       <workItem from="1563106106572" duration="1053000" />
-      <workItem from="1563193652903" duration="7962000" />
+      <workItem from="1563193652903" duration="8244000" />
+      <workItem from="1563209334593" duration="316000" />
+      <workItem from="1563441992078" duration="6376000" />
     </task>
     <task id="LOCAL-00002" summary="Solved Minimum Distances problem">
       <created>1563097300064</created>
@@ -287,11 +279,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563099237601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Reduce the time complexity of Array Manipulation problem using prefix&#10;sum array algorithm">
+      <created>1563209167744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563209167744</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Try another approach for New Year Chaos">
+      <created>1563443033742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563443033742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38801000" />
+    <option name="totallyTimeSpent" value="45775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +312,7 @@
     <frame x="-1" y="-1" width="1368" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19637462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20241691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -316,12 +322,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27315542" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36263737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32973805" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28414443" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2747253" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -382,22 +388,18 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Solved 2D Array problem" />
     <MESSAGE value="Solved Minimum Distances problem" />
     <MESSAGE value="Another solution for Minimum Distances" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another solution for Minimum Distances" />
+    <MESSAGE value="Reduce the time complexity of Array Manipulation problem using prefix&#10;sum array algorithm" />
+    <MESSAGE value="Try another approach for New Year Chaos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try another approach for New Year Chaos" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/input_reader/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jumping_on_the_clouds/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -484,26 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/new_year_chaos/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minimum_distances/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/minimum_distances/testcase.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -511,13 +493,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/minimum_distances/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array_manipulation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/new_year_chaos/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#1532#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input_reader/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -528,14 +541,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array_manipulation/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/minimum_swaps_2/testcase.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="15">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minimum_swaps_2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding>
-            <element signature="e#0#1391#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
