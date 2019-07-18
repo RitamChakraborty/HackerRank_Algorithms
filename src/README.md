@@ -9,3 +9,4 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
  - [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem)
  - [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)
  - [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances/problem)
+ - [Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2/problem)
