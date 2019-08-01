@@ -1,5 +1,4 @@
 // https://www.hackerrank.com/challenges/java-1d-array/problem
-// Todo: Reduce time complexity
 
 package java_1d_array;
 
@@ -7,27 +6,19 @@ import input_reader.InputReader;
 
 public class Main {
 	
-	private static boolean canWin(int leap, int[] arr) {
-		int i = 0;
-		int n = arr.length;
-		
-		while (true) {
-			if (i + leap >= n) {
-				return true;
-			} else if (arr[i + leap] == 0) {
-				i += leap;
-			} else if (arr[i + 1] == 0) {
-				i++;
-			} else if ((i - 1) > 0) {
-				if (arr[i - 1] == 0) {
-					i--;
-				}
-			} else {
-				break;
-			}
+	private static boolean canWin(int leap, int[] arr, int i) {
+		if (i < 0 || arr[i] != 0) {
+			return false;
+		} else if (i + leap >= arr.length || i == arr.length - 1) {
+			return true;
+		} else {
+			arr[i] = 1;
+			return canWin(leap, arr, i + leap) || canWin(leap, arr, i + 1) || canWin(leap, arr, i - 1);
 		}
-		
-		return false;
+	}
+	
+	private static boolean canWin(int leap, int[] arr) {
+		return canWin(leap, arr, 0);
 	}
 	
 	public static void main(String[] args) {
