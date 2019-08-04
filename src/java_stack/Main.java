@@ -4,7 +4,6 @@ package java_stack;
 
 import input_reader.InputReader;
 
-import java.io.IOException;
 import java.util.Stack;
 
 public class Main {
@@ -43,7 +42,7 @@ public class Main {
 		return stack.isEmpty();
 	}
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		String path = "/media/ritam/Storage/Projects/IdeaProjects/Playground/Hacker Rank/src/java_stack/testcase.txt";
 		String[] inputs = InputReader.read(path).split("\n");
 		

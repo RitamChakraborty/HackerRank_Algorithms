@@ -9,28 +9,28 @@ import java.util.*;
 import java.util.stream.IntStream;
 
 public class Main {
-	static long countTriplets(List<Long> arr, long r) {
-		Collections.sort(arr);
-		int n = arr.size();
+	static long countTriplets(List<Long> list, long r) {
+		Collections.sort(list);
+		int n = list.size();
 		long count = 0;
 		
 		for (int i = 0; i < n - 2; i++) {
-			long a = arr.get(i);
+			long a = list.get(i);
 			
 			for (int j = (i + 1); j < n - 1; j++) {
-				long b = arr.get(j);
+				long b = list.get(j);
 				
-				if (b == a * r) {
-					for (int k = (i + 2); k < n; k++) {
-						long c = arr.get(k);
+				if (a * r == b) {
+					for (int k = (j + 1); k < n; k++) {
+						long c= list.get(k);
 						
-						if (c == a * r * r) {
+						if (b * r == c) {
 							count++;
-						} else if (c > a * r * r) {
+						} else if (b != c) {
 							break;
 						}
 					}
-				} else if (b > a * r) {
+				} else if (a != b){
 					break;
 				}
 			}
@@ -109,7 +109,11 @@ public class Main {
 			list.add(Long.parseLong(input.split("\n")[1].split(" ")[i]));
 		});
 		
-		System.out.println(countTriplets(list.stream().mapToInt(Long::intValue).toArray(), r));
+//		System.out.println(list);
+		
+		System.out.println(countTriplets(list, r));
+		
+//		System.out.println(countTriplets(list.stream().mapToInt(Long::intValue).toArray(), r));
 		
 	}
 }
