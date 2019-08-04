@@ -40,45 +40,77 @@ public class Main {
 //		return count;
 //	}
 	
-	private static long countPrevious(List<Long> list, int index, long r){
-		long n = list.get(index);
-		long count = 0;
-		for (int i = (index - 1); i >= 0; i--) {
-			if (list.get(i) == n / r) {
-				count++;
-			} else if (list.get(i) != r) {
-				break;
-			}
-		}
-		
-		return count;
-	}
-	
-	private static long countNext(List<Long> list, int index, long r) {
-		long n = list.get(index);
-		long count = 0;
-		for (int i = (index + 1); i < list.size(); i++) {
-			if (list.get(i) == n * r) {
-				count++;
-			} else if (list.get(i) != n) {
-				break;
-			}
-		}
-		
-		return count;
-	}
-	
+	// Solution 2
+//	private static long countPrevious(List<Long> list, int index, long r){
+//		long n = list.get(index);
+//		long count = 0;
+//		for (int i = (index - 1); i >= 0; i--) {
+//			if (list.get(i) == n / r) {
+//				count++;
+//			} else if (list.get(i) != r) {
+//				break;
+//			}
+//		}
+//
+//		return count;
+//	}
+//
+//	private static long countNext(List<Long> list, int index, long r) {
+//		long n = list.get(index);
+//		long count = 0;
+//		for (int i = (index + 1); i < list.size(); i++) {
+//			if (list.get(i) == n * r) {
+//				count++;
+//			} else if (list.get(i) != n) {
+//				break;
+//			}
+//		}
+//
+//		return count;
+//	}
+//
+//	private static long countTriplets(List<Long> list, long r) {
+//		long count = 0;
+//		Collections.sort(list);
+//
+//		for (int i = 1; i < (list.size() - 1); i++) {
+//			count += Long.max(countPrevious(list, i, r), countNext(list, i, r));
+//		}
+//
+//		return count;
+//	}
+
+	// Solution 3
 	private static long countTriplets(List<Long> list, long r) {
+		SortedMap<Long, Long> hashMap = new TreeMap<>();
+		List<Long> arr = new LinkedList<>();
 		long count = 0;
-		Collections.sort(list);
-
-		for (int i = 1; i < (list.size() - 1); i++) {
-			count += Long.max(countPrevious(list, i, r), countNext(list, i, r));
+		
+		for (Long aLong: list) {
+			if (hashMap.containsKey(aLong)) {
+				hashMap.put(aLong, hashMap.get(aLong) + 1);
+			} else {
+				hashMap.put(aLong, 1L);
+				arr.add(aLong);
+			}
 		}
-
+		
+		System.out.println(hashMap);
+		System.out.println(arr);
+		
+		int i = 0;
+		int n = arr.size();
+		for (Long aLong: hashMap.keySet()) {
+			if (i != 0 && i != n - 1) {
+				count += Long.max(hashMap.get(arr.get(i - 1)), hashMap.get(arr.get(i + 1))) + hashMap.get(aLong) - 1;
+			}
+			
+			i++;
+		}
+		
 		return count;
 	}
-
+	
 	static long countTriplets(int[] arr, int r) {
 		Map<Integer, List<Integer>> numberToIndices = new HashMap<>();
 		for (int i = 0; i < arr.length; i++) {
