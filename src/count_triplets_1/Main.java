@@ -9,60 +9,100 @@ import java.util.*;
 import java.util.stream.IntStream;
 
 public class Main {
-	static long countTriplets(List<Long> list, long r) {
-		Collections.sort(list);
-		int n = list.size();
+	// Solution 1
+//	static long countTriplets(List<Long> list, long r) {
+//		Collections.sort(list);
+//		int n = list.size();
+//		long count = 0;
+//
+//		for (int i = 0; i < n - 2; i++) {
+//			long a = list.get(i);
+//
+//			for (int j = (i + 1); j < n - 1; j++) {
+//				long b = list.get(j);
+//
+//				if (a * r == b) {
+//					for (int k = (j + 1); k < n; k++) {
+//						long c= list.get(k);
+//
+//						if (b * r == c) {
+//							count++;
+//						} else if (b != c) {
+//							break;
+//						}
+//					}
+//				} else if (a != b){
+//					break;
+//				}
+//			}
+//		}
+//
+//		return count;
+//	}
+	
+	private static long countPrevious(List<Long> list, int index, long r){
+		long n = list.get(index);
 		long count = 0;
-		
-		for (int i = 0; i < n - 2; i++) {
-			long a = list.get(i);
-			
-			for (int j = (i + 1); j < n - 1; j++) {
-				long b = list.get(j);
-				
-				if (a * r == b) {
-					for (int k = (j + 1); k < n; k++) {
-						long c= list.get(k);
-						
-						if (b * r == c) {
-							count++;
-						} else if (b != c) {
-							break;
-						}
-					}
-				} else if (a != b){
-					break;
-				}
+		for (int i = (index - 1); i >= 0; i--) {
+			if (list.get(i) == n / r) {
+				count++;
+			} else if (list.get(i) != r) {
+				break;
 			}
 		}
 		
 		return count;
 	}
 	
+	private static long countNext(List<Long> list, int index, long r) {
+		long n = list.get(index);
+		long count = 0;
+		for (int i = (index + 1); i < list.size(); i++) {
+			if (list.get(i) == n * r) {
+				count++;
+			} else if (list.get(i) != n) {
+				break;
+			}
+		}
+		
+		return count;
+	}
+	
+	private static long countTriplets(List<Long> list, long r) {
+		long count = 0;
+		Collections.sort(list);
+
+		for (int i = 1; i < (list.size() - 1); i++) {
+			count += Long.max(countPrevious(list, i, r), countNext(list, i, r));
+		}
+
+		return count;
+	}
+
 	static long countTriplets(int[] arr, int r) {
 		Map<Integer, List<Integer>> numberToIndices = new HashMap<>();
 		for (int i = 0; i < arr.length; i++) {
 			if (!numberToIndices.containsKey(arr[i])) {
 				numberToIndices.put(arr[i], new ArrayList<>());
 			}
-			
+
 			numberToIndices.get(arr[i]).add(i);
 		}
-		
+
 		long result = 0;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] % r != 0) {
 				continue;
 			}
-			
+
 			int firstNumber = arr[i] / r;
-			
+
 			if ((long) arr[i] * r > Integer.MAX_VALUE) {
 				continue;
 			}
-			
+
 			int lastNumber = arr[i] * r;
-			
+
 			result += (long) findBeforeCount(numberToIndices, firstNumber, i)
 				* findAfterCount(numberToIndices, lastNumber, i);
 		}
