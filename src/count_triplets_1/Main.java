@@ -81,31 +81,73 @@ public class Main {
 //	}
 
 	// Solution 3
-	private static long countTriplets(List<Long> list, long r) {
-		SortedMap<Long, Long> hashMap = new TreeMap<>();
-		List<Long> arr = new LinkedList<>();
+//	private static long countTriplets(List<Long> list, long r) {
+//		SortedMap<Long, Long> hashMap = new TreeMap<>();
+//		List<Long> arr = new LinkedList<>();
+//		long count = 0;
+//
+//		for (Long aLong: list) {
+//			if (hashMap.containsKey(aLong)) {
+//				hashMap.put(aLong, hashMap.get(aLong) + 1);
+//			} else {
+//				hashMap.put(aLong, 1L);
+//				arr.add(aLong);
+//			}
+//		}
+//
+//		System.out.println(hashMap);
+//		System.out.println(arr);
+//
+//		int i = 0;
+//		int n = arr.size();
+//		for (Long aLong: hashMap.keySet()) {
+//			if (i != 0 && i != n - 1) {
+//				count += Long.max(hashMap.get(arr.get(i - 1)), hashMap.get(arr.get(i + 1))) + hashMap.get(aLong) - 1;
+//			}
+//
+//			i++;
+//		}
+//
+//		return count;
+//	}
+	
+	// Solution 4
+	private static long countPrevious(HashMap<Long, Long> hashMap, long key, long r) {
+		long previousKey = key / r;
+		return hashMap.containsKey(previousKey) ? hashMap.get(previousKey) : 0;
+	}
+	
+	private static long countNext(HashMap<Long, Long> hashMap, long key, long r) {
+		long nextKey = key * r;
+		return hashMap.containsKey(nextKey) ? hashMap.get(nextKey) : 0;
+	}
+	
+	private static long countTriplets(List<Long> arr, long r) {
+		HashMap<Long, Long> hashMap = new HashMap<>();
 		long count = 0;
 		
-		for (Long aLong: list) {
+		for (Long aLong: arr) {
+			if (aLong % r != 0 && aLong != 1) {
+				continue;
+			}
+			
 			if (hashMap.containsKey(aLong)) {
 				hashMap.put(aLong, hashMap.get(aLong) + 1);
 			} else {
 				hashMap.put(aLong, 1L);
-				arr.add(aLong);
 			}
 		}
 		
 		System.out.println(hashMap);
-		System.out.println(arr);
 		
-		int i = 0;
-		int n = arr.size();
 		for (Long aLong: hashMap.keySet()) {
-			if (i != 0 && i != n - 1) {
-				count += Long.max(hashMap.get(arr.get(i - 1)), hashMap.get(arr.get(i + 1))) + hashMap.get(aLong) - 1;
-			}
+			long previousCount = countPrevious(hashMap, aLong, r);
+			long nextCount = countNext(hashMap, aLong, r);
+			long currentCount = hashMap.get(aLong);
 			
-			i++;
+			if (previousCount != 0 && nextCount != 0) {
+				count += previousCount * nextCount + currentCount - 1;
+			}
 		}
 		
 		return count;
