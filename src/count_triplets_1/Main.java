@@ -112,47 +112,36 @@ public class Main {
 //	}
 	
 	// Solution 4
-	private static long countPrevious(HashMap<Long, Long> hashMap, long key, long r) {
-		long previousKey = key / r;
-		return hashMap.containsKey(previousKey) ? hashMap.get(previousKey) : 0;
-	}
-	
-	private static long countNext(HashMap<Long, Long> hashMap, long key, long r) {
-		long nextKey = key * r;
-		return hashMap.containsKey(nextKey) ? hashMap.get(nextKey) : 0;
-	}
-	
 	private static long countTriplets(List<Long> arr, long r) {
-		HashMap<Long, Long> hashMap = new HashMap<>();
 		long count = 0;
+		HashMap<Long, Long> hashMap = new HashMap<>();
 		
-		for (Long aLong: arr) {
-			if (aLong % r != 0 && aLong != 1) {
-				continue;
-			}
-			
-			if (hashMap.containsKey(aLong)) {
-				hashMap.put(aLong, hashMap.get(aLong) + 1);
+		arr.forEach(i -> {
+			if (hashMap.containsKey(i)) {
+				hashMap.put(i, hashMap.get(i) + 1);
 			} else {
-				hashMap.put(aLong, 1L);
+				hashMap.put(i, 1L);
 			}
-		}
+		});
 		
 		System.out.println(hashMap);
 		
-		for (Long aLong: hashMap.keySet()) {
-			long previousCount = countPrevious(hashMap, aLong, r);
-			long nextCount = countNext(hashMap, aLong, r);
-			long currentCount = hashMap.get(aLong);
-			
-			if (previousCount != 0 && nextCount != 0) {
-				count += previousCount * nextCount + currentCount - 1;
+		for (long currentKey: hashMap.keySet()) {
+			if (currentKey == 1 || currentKey % r == 0) {
+				long previousKey = currentKey / r;
+				long nextKey = currentKey * r;
+				long previousCount = hashMap.containsKey(previousKey) ? hashMap.get(previousKey) : 0;
+				long nextCount = hashMap.containsKey(nextKey) ? hashMap.get((nextKey)) : 0;
+				if (previousCount != 0 && nextCount != 0) {
+					count += previousCount * nextCount + hashMap.get(currentKey) - 1;
+				}
 			}
 		}
 		
 		return count;
 	}
 	
+	// Original Solution
 	static long countTriplets(int[] arr, int r) {
 		Map<Integer, List<Integer>> numberToIndices = new HashMap<>();
 		for (int i = 0; i < arr.length; i++) {
@@ -227,7 +216,7 @@ public class Main {
 		
 		System.out.println(countTriplets(list, r));
 		
-//		System.out.println(countTriplets(list.stream().mapToInt(Long::intValue).toArray(), r));
+		System.out.println(countTriplets(list.stream().mapToInt(Long::intValue).toArray(), r));
 		
 	}
 }
