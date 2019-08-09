@@ -6,37 +6,35 @@ import input_reader.InputReader;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 	
 	private static int makeAnagram(String a, String b) {
-		char[] ch1 = a.length() > b.length() ? a.toCharArray() : b.toCharArray();
-		char[] ch2 = a.length() <= b.length() ? a.toCharArray() : b.toCharArray();
-		int n1 = ch1.length;
-		int n2 = ch2.length;
+		char[] ch1 = a.toCharArray();
+		char[] ch2 = b.toCharArray();
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
-		ArrayList<Character> anagramList = new ArrayList<>();
-		int count = 0;
-		boolean foundMatch = false;
+		int n1 = ch1.length;
+		int n2 = ch2.length;
+		int[][] arr = new int[n1 + 1][n2 + 1];
+		List<Character> list = new ArrayList<>();
 		
-		int j;
-		int temp = 0;
-		for (int i = 0; i < n1; i++) {
-			j = temp;
-			while (j < n2) {
-				System.out.println("i: " + i + " j: " + j + " ch1: " + ch1[i] + " ch2: " + ch2[j]);
-				if (ch1[i] == ch2[j]) {
-					anagramList.add(ch1[i]);
-					temp = j + 1;
-					break;
+		for (int i = 1; i <= n1; i++) {
+			for (int j = 1; j <= n2; j++) {
+				if (ch1[i - 1] == ch2[j - 1] && arr[i - 1][j] == arr[i][j - 1]) {
+					arr[i][j] = 1 + arr[i -1][j];
+					list.add(ch1[i - 1]);
 				} else {
-					j++;
+					arr[i][j] = Integer.max(arr[i - 1][j], arr[i][j - 1]);
 				}
 			}
 		}
 		
-		return n1 + n2 - anagramList.size() * 2;
+		System.out.println(list);
+		System.out.println(arr[n1][n2]);
+		
+		return n1 + n2 - 2 * arr[n1][n2];
 	}
 	
 	public static void main(String[] args) {
