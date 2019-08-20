@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ctci_comparator_string/testcase.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frequency_queries/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frequency_queries/testcase.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_comparator_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctci_comparator_string/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new_year_chaos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/new_year_chaos/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/src/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="1" selection-start-column="1" selection-end-column="1" />
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
               </first_editor>
               <second_editor />
             </state>
@@ -37,10 +34,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/new_year_chaos/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/frequency_queries/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/frequency_queries/testcase.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -90,8 +99,11 @@
         <option value="$PROJECT_DIR$/src/mark_and_toys/Main.java" />
         <option value="$PROJECT_DIR$/src/ctci_comparator_string/testcase.txt" />
         <option value="$PROJECT_DIR$/src/ctci_comparator_string/Main.java" />
-        <option value="$PROJECT_DIR$/src/README.md" />
+        <option value="$PROJECT_DIR$/src/new_year_chaos/testcase.txt" />
         <option value="$PROJECT_DIR$/src/new_year_chaos/Main.java" />
+        <option value="$PROJECT_DIR$/src/README.md" />
+        <option value="$PROJECT_DIR$/src/frequency_queries/testcase.txt" />
+        <option value="$PROJECT_DIR$/src/frequency_queries/Main.java" />
       </list>
     </option>
   </component>
@@ -117,6 +129,12 @@
               <item name="Hacker Rank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hacker Rank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hacker Rank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hacker Rank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frequency_queries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hacker Rank" type="b2602c69:ProjectViewProjectNode" />
@@ -156,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mark_and_toys.Main" />
       <module name="Hacker Rank" />
@@ -196,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="count_triplets_1.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frequency_queries.Main" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="count_triplets_1.*" />
+          <option name="PATTERN" value="frequency_queries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +296,7 @@
       <workItem from="1564982779262" duration="690000" />
       <workItem from="1565290948998" duration="4337000" />
       <workItem from="1565364222614" duration="4312000" />
-      <workItem from="1566279360843" duration="959000" />
+      <workItem from="1566279360843" duration="7652000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -350,17 +368,33 @@
       <option name="project" value="LOCAL" />
       <updated>1565367778893</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Solve New Year Chaos problem">
+      <created>1566282900903</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1566282900904</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38369000" />
+    <option name="totallyTimeSpent" value="45062000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23716012" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23716012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -370,11 +404,11 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29513344" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5400314" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32973805" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.60282576" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
@@ -449,7 +483,8 @@
     <MESSAGE value="Try to solve Making Anagrams but got into TLE" />
     <MESSAGE value="Solve Sorting: Bubble Sort problem" />
     <MESSAGE value="Solve Mark and Toy problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Mark and Toy problem" />
+    <MESSAGE value="Solve New Year Chaos problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve New Year Chaos problem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java_hashset/testcase.txt">
@@ -556,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/count_triplets_1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ctci_making_anagrams/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -616,20 +644,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ctci_comparator_string/testcase.txt" />
     <entry file="file://$PROJECT_DIR$/src/ctci_comparator_string/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="1" selection-start-column="1" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/new_year_chaos/testcase.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/new_year_chaos/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-column="3" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/count_triplets_1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" lean-forward="true" selection-start-column="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frequency_queries/testcase.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frequency_queries/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
