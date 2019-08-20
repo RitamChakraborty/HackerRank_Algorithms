@@ -16,4 +16,5 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
  - [Sorting: Bubble Sort](https://www.hackerrank.com/challenges/ctci-bubble-sort)
  - [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)
  - [String: Comparator](https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem)
+ - [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)
  

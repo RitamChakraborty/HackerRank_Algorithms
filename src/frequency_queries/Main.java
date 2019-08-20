@@ -1,5 +1,5 @@
 // https://www.hackerrank.com/challenges/frequency-queries/problem
-// FIXME: 8/20/19 
+// FIXME: 8/20/19
 
 package frequency_queries;
 
