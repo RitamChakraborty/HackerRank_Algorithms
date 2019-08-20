@@ -14,3 +14,6 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
  - [Two Strings](https://www.hackerrank.com/challenges/two-strings)
  - [Sherlock and Anagram](https://www.hackerrank.com/challenges/sherlock-and-anagrams)
  - [Sorting: Bubble Sort](https://www.hackerrank.com/challenges/ctci-bubble-sort)
+ - [Mark and Toys](https://www.hackerrank.com/challenges/mark-and-toys/problem)
+ - [String: Comparator](https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem)
+ 

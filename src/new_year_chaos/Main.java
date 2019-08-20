@@ -1,39 +1,31 @@
 // https://www.hackerrank.com/challenges/new-year-chaos/problem
-// Todo: Reduce time complexity
 
 package new_year_chaos;
 
 import input_reader.InputReader;
 
-import java.util.Arrays;
-
 public class Main {
-
+    
     private static void minimumBribes(int[] arr) {
-        int count = 0;
-        int n = arr.length - 1;
-
-        for (int i = n; i >= 0; i--) {
-            int step = 0;
-
-            for (int j = i; j < n; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    swap(arr, j, j + 1);
-                    step++;
-                }
-
-                System.out.println(Arrays.toString(arr));
-
-                if (step > 2) {
+        int swapCount = 0;
+        
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i] != (i + 1)) {
+                if (i > 0 && arr[i - 1] == (i + 1)) {
+                    swapCount++;
+                    swap(arr, i - 1, i);
+                } else if (i > 1 && arr[i - 2] == (i + 1)) {
+                    swapCount += 2;
+                    swap(arr, i - 2, i - 1);
+                    swap(arr, i - 1, i);
+                } else {
                     System.out.println("Too chaotic");
                     return;
                 }
             }
-
-            count += step;
         }
-
-        System.out.println(count);
+    
+        System.out.println(swapCount);
     }
 
     private static void swap(int[] arr, int a, int b) {
