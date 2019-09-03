@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sherlock_and_valid_string/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sherlock_and_valid_string/testcase.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/picking_numbers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/picking_numbers/testcase.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sherlock_and_valid_string/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/picking_numbers/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="74" lean-forward="true" selection-start-column="3" selection-end-column="74" />
+            <state relative-caret-position="134">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +46,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sherlock_and_valid_string/testcase.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/picking_numbers/testcase.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -105,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/sherlock_and_valid_string/testcase.txt" />
         <option value="$PROJECT_DIR$/src/sherlock_and_valid_string/Main.java" />
         <option value="$PROJECT_DIR$/src/README.md" />
+        <option value="$PROJECT_DIR$/src/picking_numbers/Main.java" />
+        <option value="$PROJECT_DIR$/src/picking_numbers/testcase.txt" />
       </list>
     </option>
   </component>
@@ -118,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,12 +148,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="new_year_chaos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hacker Rank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hacker Rank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="picking_numbers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Course" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -176,13 +187,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ctci_comparator_string.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="picking_numbers.Main" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ctci_comparator_string.*" />
+          <option name="PATTERN" value="picking_numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +311,9 @@
       <workItem from="1565364222614" duration="4312000" />
       <workItem from="1566279360843" duration="13436000" />
       <workItem from="1566304065541" duration="465000" />
-      <workItem from="1566468743878" duration="9899000" />
+      <workItem from="1566468743878" duration="9983000" />
+      <workItem from="1566562400348" duration="105000" />
+      <workItem from="1567493379124" duration="704000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -393,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566303373719</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Solve Sherlock and Valid String problem">
+      <created>1566480203486</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1566480203486</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61210000" />
+    <option name="totallyTimeSpent" value="62103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,10 +429,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="766" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="-1" width="1368" height="770" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25075528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,7 +441,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3448819" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34379905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -504,7 +523,8 @@
     <MESSAGE value="Solve New Year Chaos problem" />
     <MESSAGE value="TLE in Frequency Queries problem" />
     <MESSAGE value="Bug in Merge Sort: Counting Inversions problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug in Merge Sort: Counting Inversions problem" />
+    <MESSAGE value="Solve Sherlock and Valid String problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Sherlock and Valid String problem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java_hashset/testcase.txt">
@@ -740,6 +760,23 @@
             <caret line="19" column="103" selection-start-line="19" selection-start-column="103" selection-end-line="19" selection-end-column="103" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/picking_numbers/testcase.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/picking_numbers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
