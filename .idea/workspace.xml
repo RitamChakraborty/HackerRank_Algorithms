@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/climbing_the_leaderboard/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/climbing_the_leaderboard/testcase.txt" afterDir="false" />
+    <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="Solve Strings: Making Anagram">
+      <change afterPath="$PROJECT_DIR$/src/ctci_making_anargrams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ctci_making_anargrams/testcase.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +37,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
-  </component>
   <component name="ProjectId" id="1Qxy9Hr85Hc47hXYugEOpURpUKK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -69,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="picking_numbers.Main" />
       <module name="Hacker Rank" />
@@ -96,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="frequency_queries.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ctci_making_anargrams.Main" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="frequency_queries.*" />
+          <option name="PATTERN" value="ctci_making_anargrams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +195,9 @@
       <workItem from="1567522441600" duration="871000" />
       <workItem from="1567586142679" duration="603000" />
       <workItem from="1568726392159" duration="6065000" />
-      <workItem from="1568780840877" duration="4581000" />
+      <workItem from="1568780840877" duration="4724000" />
+      <workItem from="1571592808672" duration="1077000" />
+      <workItem from="1571627330647" duration="827000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -307,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567494750389</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Try solving Climbing the leaderboard but just one test case">
+      <created>1568785720141</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568785720141</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -354,7 +358,8 @@
     <MESSAGE value="Bug in Merge Sort: Counting Inversions problem" />
     <MESSAGE value="Solve Sherlock and Valid String problem" />
     <MESSAGE value="Solve Picking Numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Picking Numbers" />
+    <MESSAGE value="Try solving Climbing the leaderboard but just one test case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try solving Climbing the leaderboard but just one test case" />
   </component>
   <component name="masterDetails">
     <states>
