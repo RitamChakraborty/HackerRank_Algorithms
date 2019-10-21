@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="Solve Strings: Making Anagram">
-      <change afterPath="$PROJECT_DIR$/src/ctci_making_anargrams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ctci_making_anargrams/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alternating_characters/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alternating_characters/testcase.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="picking_numbers.Main" />
       <module name="Hacker Rank" />
@@ -104,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ctci_merge_sort.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alternating_characters.Main" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ctci_merge_sort.*" />
+          <option name="PATTERN" value="alternating_characters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +196,7 @@
       <workItem from="1568726392159" duration="6065000" />
       <workItem from="1568780840877" duration="4724000" />
       <workItem from="1571592808672" duration="1077000" />
-      <workItem from="1571627330647" duration="827000" />
+      <workItem from="1571627330647" duration="1122000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -311,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568785720141</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Solve Strings: Making Anagram">
+      <created>1571628198836</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1571628198836</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -359,7 +365,8 @@
     <MESSAGE value="Solve Sherlock and Valid String problem" />
     <MESSAGE value="Solve Picking Numbers" />
     <MESSAGE value="Try solving Climbing the leaderboard but just one test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try solving Climbing the leaderboard but just one test case" />
+    <MESSAGE value="Solve Strings: Making Anagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Strings: Making Anagram" />
   </component>
   <component name="masterDetails">
     <states>
