@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/minimum_absolute_difference_in_an_array/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minimum_absolute_difference_in_an_array/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/luck_balance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/luck_balance/testcase.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="picking_numbers.Main" />
       <module name="Hacker Rank" />
@@ -118,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sherlock_and_valid_string.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="luck_balance.Main" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sherlock_and_valid_string.*" />
+          <option name="PATTERN" value="luck_balance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +198,7 @@
       <workItem from="1568780840877" duration="4724000" />
       <workItem from="1571592808672" duration="1077000" />
       <workItem from="1571627330647" duration="1804000" />
-      <workItem from="1572543615315" duration="1401000" />
+      <workItem from="1572543615315" duration="1931000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -327,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571628519049</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Solve Absolute Difference in an Array">
+      <created>1572545129634</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1572545129634</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -377,6 +383,7 @@
     <MESSAGE value="Try solving Climbing the leaderboard but just one test case" />
     <MESSAGE value="Solve Strings: Making Anagram" />
     <MESSAGE value="Solve Alternating Character" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Alternating Character" />
+    <MESSAGE value="Solve Absolute Difference in an Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Absolute Difference in an Array" />
   </component>
 </project>
