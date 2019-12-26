@@ -1,19 +1,46 @@
 // https://www.hackerrank.com/challenges/common-child/problem
-// FIXME: 11/1/19 
+// FIXME: 11/1/19
 package common_child;
 
 import input_reader.InputReader;
 
+import java.util.HashSet;
+
 public class Main {
     private static int commonChild(String s1, String s2) {
-        char[] ch1 = s1.toCharArray();
-        char[] ch2 = s2.toCharArray();
+        HashSet<Character> set1 = new HashSet<>();
+        HashSet<Character> set2 = new HashSet<>();
+        for (char ch: s1.toCharArray()) {
+            set1.add(ch);
+        }
+
+        for (char ch: s2.toCharArray()) {
+            set2.add(ch);
+        }
+
+        StringBuilder sb1 = new StringBuilder();
+        StringBuilder sb2 = new StringBuilder();
+
+        for (char ch: s1.toCharArray()) {
+            if (set2.contains(ch)) {
+                sb1.append(ch);
+            }
+        }
+
+        for (char ch: s2.toCharArray()) {
+            if (set1.contains(ch)) {
+                sb2.append(ch);
+            }
+        }
+
+        char[] ch1 = sb1.toString().toCharArray();
+        char[] ch2 = sb2.toString().toCharArray();
         int n1 = ch1.length;
         int n2 = ch2.length;
-        int size = Integer.MIN_VALUE;
+        int size = 0;
 
         for (int i = 0; i < n1; i++) {
-            System.out.println("i: " + i);
+//            System.out.println("i: " + i);
             StringBuilder sb = new StringBuilder();
             int m = 0;
             for (int j = i; j < n1; j++) {
@@ -28,7 +55,7 @@ public class Main {
                 }
             }
 
-            System.out.println(sb.toString());
+//            System.out.println(sb.toString());
             size = Integer.max(size, sb.length());
         }
 

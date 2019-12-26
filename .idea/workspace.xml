@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common_child/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common_child/testcase.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/warmup/solve_me_first/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_child/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_child/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_child/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_child/testcase.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,30 +40,24 @@
   </component>
   <component name="ProjectId" id="1Qxy9Hr85Hc47hXYugEOpURpUKK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Data Structure" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -141,6 +135,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -201,7 +207,10 @@
       <workItem from="1571627330647" duration="1804000" />
       <workItem from="1572543615315" duration="2334000" />
       <workItem from="1572608956320" duration="116000" />
-      <workItem from="1572609104277" duration="2724000" />
+      <workItem from="1572609104277" duration="2802000" />
+      <workItem from="1572711003429" duration="1556000" />
+      <workItem from="1572748622384" duration="140000" />
+      <workItem from="1577367059226" duration="303000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -343,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572545695140</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Wrong answer for Common Child problem">
+      <created>1572611880372</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1572611880372</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -395,6 +411,17 @@
     <MESSAGE value="Solve Alternating Character" />
     <MESSAGE value="Solve Absolute Difference in an Array" />
     <MESSAGE value="Solve Luck Balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Luck Balance" />
+    <MESSAGE value="Wrong answer for Common Child problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrong answer for Common Child problem" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="207" y="0" key="CommitChangelistDialog2" timestamp="1577367419758">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="207" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577367419758" />
+    <state x="183" y="0" key="SettingsEditor" timestamp="1577367362920">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="183" y="0" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1577367362920" />
   </component>
 </project>

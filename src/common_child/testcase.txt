@@ -1,2 +1,2 @@
-ABCDEF
-FBDAMN
+abcd
+abcd
