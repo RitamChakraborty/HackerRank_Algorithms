@@ -1,78 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="Solve Compare the Triplets">
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/warmup/compare_the_triplets/Solution.java" afterDir="false" />
+    <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/warmup/a_very_big_sum/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alternating_characters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/alternating_characters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alternating_characters/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/alternating_characters/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_left_rotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/array_left_rotation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_left_rotation/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/array_left_rotation/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_manipulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/array_manipulation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array_manipulation/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/array_manipulation/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/climbing_the_leaderboard/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/climbing_the_leaderboard/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/climbing_the_leaderboard/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/climbing_the_leaderboard/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_child/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/common_child/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_child/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/common_child/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/count_triplets_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/count_triplets_1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/count_triplets_1/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/count_triplets_1/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_array_left_rotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_array_left_rotation/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_array_left_rotation/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_array_left_rotation/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_bubble_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_bubble_sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_bubble_sort/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_bubble_sort/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_comparator_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_comparator_string/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_comparator_string/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_comparator_string/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_making_anagrams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_making_anagrams/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_making_anagrams/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_making_anagrams/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_making_anargrams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_making_anargrams/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_making_anargrams/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_making_anargrams/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_merge_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_merge_sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_merge_sort/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_merge_sort/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_ransom_note/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_ransom_note/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ctci_ransom_note/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_ransom_note/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frequency_queries/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/frequency_queries/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frequency_queries/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/frequency_queries/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input_reader/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/input_reader/InputReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_1d_array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_1d_array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_1d_array/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_1d_array/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_comparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_comparator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_comparator/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_comparator/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_hashset/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_hashset/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_hashset/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_hashset/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_sort/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_sort/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_stack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_stack/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/java_stack/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jumping_on_the_clouds/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/jumping_on_the_clouds/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jumping_on_the_clouds/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/jumping_on_the_clouds/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/luck_balance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/luck_balance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/luck_balance/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/luck_balance/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mark_and_toys/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/mark_and_toys/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mark_and_toys/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/mark_and_toys/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimum_absolute_difference_in_an_array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/minimum_absolute_difference_in_an_array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimum_absolute_difference_in_an_array/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/minimum_absolute_difference_in_an_array/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimum_distances/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/minimum_distances/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimum_distances/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/minimum_distances/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimum_swaps_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/minimum_swaps_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/minimum_swaps_2/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/minimum_swaps_2/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new_year_chaos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/new_year_chaos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/new_year_chaos/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/new_year_chaos/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/picking_numbers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/picking_numbers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/picking_numbers/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/picking_numbers/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repeated_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/repeated_string/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repeated_string/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/repeated_string/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sherlock_and_anagram/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/sherlock_and_anagram/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sherlock_and_anagram/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/sherlock_and_anagram/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sherlock_and_valid_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/sherlock_and_valid_string/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sherlock_and_valid_string/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/sherlock_and_valid_string/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sparse_arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/sparse_arrays/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sparse_arrays/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/sparse_arrays/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/two_strings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/two_strings/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/two_strings/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/two_strings/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twod_array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/twod_array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twod_array/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/twod_array/testcase.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +233,7 @@
       <workItem from="1572609104277" duration="2802000" />
       <workItem from="1572711003429" duration="1556000" />
       <workItem from="1572748622384" duration="140000" />
-      <workItem from="1577367059226" duration="3236000" />
+      <workItem from="1577367059226" duration="3524000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -465,7 +396,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577411922476</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Solve Compare the Triplets">
+      <created>1577413146576</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1577413146576</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Organize problems">
+      <created>1577413181114</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1577413181114</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -494,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solve Java Sort problem" />
     <MESSAGE value="Solve Java 1D Array (Part 2) problem" />
     <MESSAGE value="Try solving Java Stack problem" />
     <MESSAGE value="Solve Java Stack problem" />
@@ -519,13 +463,14 @@
     <MESSAGE value="Solve Solve Me First" />
     <MESSAGE value="Solve Simple Array Sum" />
     <MESSAGE value="Solve Compare the Triplets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Compare the Triplets" />
+    <MESSAGE value="Organize problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organize problems" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577413146371">
+    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577413180459">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577413146371" />
+    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577413180459" />
     <state width="1324" height="351" key="GridCell.Tab.0.bottom" timestamp="1577381093376">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
