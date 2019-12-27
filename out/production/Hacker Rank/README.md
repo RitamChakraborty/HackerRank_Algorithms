@@ -11,6 +11,7 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
 - [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)
 - [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)
+- [Staircase](https://www.hackerrank.com/challenges/staircase/problem)
 
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
