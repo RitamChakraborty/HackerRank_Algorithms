@@ -5,7 +5,7 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 ## Problem Solving
 ### Warmup
 - [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
-
+- [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
 
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)

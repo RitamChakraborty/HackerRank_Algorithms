@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/warmup/solve_me_first/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/warmup/simple_array_sum/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_child/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_child/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_child/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_child/testcase.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +57,7 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="climbing_the_leaderboard.Main" />
-      <module name="Hacker Rank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="climbing_the_leaderboard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctci_making_anargrams.Main" />
       <module name="Hacker Rank" />
@@ -125,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.warmup.simple_array_sum.Solution" />
+      <module name="Hacker Rank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem_solving.warmup.simple_array_sum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +208,7 @@
       <workItem from="1572609104277" duration="2802000" />
       <workItem from="1572711003429" duration="1556000" />
       <workItem from="1572748622384" duration="140000" />
-      <workItem from="1577367059226" duration="303000" />
+      <workItem from="1577367059226" duration="2037000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -359,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572611880372</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Solve Solve Me First">
+      <created>1577367454294</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1577367454294</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -412,16 +417,37 @@
     <MESSAGE value="Solve Absolute Difference in an Array" />
     <MESSAGE value="Solve Luck Balance" />
     <MESSAGE value="Wrong answer for Common Child problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrong answer for Common Child problem" />
+    <MESSAGE value="Solve Solve Me First" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Solve Me First" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="207" y="0" key="CommitChangelistDialog2" timestamp="1577367419758">
+    <state x="207" y="0" key="CommitChangelistDialog2" timestamp="1577411921584">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="207" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577367419758" />
+    <state x="207" y="0" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577411921584" />
+    <state width="1324" height="351" key="GridCell.Tab.0.bottom" timestamp="1577381093376">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="351" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1577381093376" />
+    <state width="1324" height="351" key="GridCell.Tab.0.center" timestamp="1577381093375">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="351" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1577381093375" />
+    <state width="1324" height="351" key="GridCell.Tab.0.left" timestamp="1577381093374">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="351" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1577381093374" />
+    <state width="1324" height="351" key="GridCell.Tab.0.right" timestamp="1577381093375">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state width="1324" height="351" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577381093375" />
     <state x="183" y="0" key="SettingsEditor" timestamp="1577367362920">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="183" y="0" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1577367362920" />
+    <state x="347" y="157" key="run.anything.popup" timestamp="1577381090456">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="347" y="157" key="run.anything.popup/0.0.1366.732@0.0.1366.732" timestamp="1577381090456" />
   </component>
 </project>
