@@ -18,6 +18,7 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 
 ### String
 #### Easy
+- [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)
 - [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem)
 
 ### Problems

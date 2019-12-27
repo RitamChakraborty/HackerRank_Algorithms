@@ -16,6 +16,10 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 
+### String
+#### Easy
+- [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem)
+
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
  - [2D Array](https://www.hackerrank.com/challenges/2d-array/problem)
