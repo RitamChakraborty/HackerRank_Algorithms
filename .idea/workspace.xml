@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/strings/caesar_cipher/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/strings/caesar_cipher/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/caesar_cipher/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +223,7 @@
       <workItem from="1572748622384" duration="140000" />
       <workItem from="1577367059226" duration="8664000" />
       <workItem from="1577463313689" duration="13000" />
-      <workItem from="1577463369246" duration="5232000" />
+      <workItem from="1577463369246" duration="5857000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -456,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577465472586</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Solve Caesar Cipher">
+      <created>1577470862347</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1577470862347</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -489,7 +496,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Sorting: Bubble Sort problem" />
     <MESSAGE value="Solve Mark and Toy problem" />
     <MESSAGE value="Solve New Year Chaos problem" />
     <MESSAGE value="TLE in Frequency Queries problem" />
@@ -514,16 +520,17 @@
     <MESSAGE value="Solve Mini-Max Sum" />
     <MESSAGE value="Solve Birthday Cake Candles" />
     <MESSAGE value="Solve Time Conversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Time Conversion" />
+    <MESSAGE value="Solve Caesar Cipher" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Caesar Cipher" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577465472423">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577470862230">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577465472423" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577470862230" />
     <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577470762254">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

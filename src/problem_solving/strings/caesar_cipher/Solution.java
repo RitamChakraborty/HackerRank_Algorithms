@@ -1,9 +1,4 @@
-// I was competing against George Hotz,
-// But couldn't find the problem in hackerrank
-// So I just make the solution by seeing the
-// question from YouTube
-
-// https://youtu.be/Q8nhQSp__3s?list=WL&t=1367
+// https://www.hackerrank.com/challenges/caesar-cipher-1/problem
 
 package problem_solving.strings.caesar_cipher;
 

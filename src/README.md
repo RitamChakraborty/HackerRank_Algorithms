@@ -17,7 +17,8 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 
 ### String
-- [Caesar Cipher](https://youtu.be/Q8nhQSp__3s?list=WL&t=1367)
+#### Easy
+- [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem)
 
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
