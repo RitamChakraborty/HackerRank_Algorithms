@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/warmup/a_very_big_sum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problem_solving/warmup/diagonal_difference/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ctci_making_anargrams.Main" />
       <module name="Hacker Rank" />
@@ -97,19 +97,6 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.ctci_making_anargrams.Main" />
-      <module name="Hacker Rank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.ctci_making_anargrams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.alternating_characters.Main" />
       <module name="Hacker Rank" />
       <extension name="coverage">
@@ -135,6 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.warmup.diagonal_difference.Solution" />
+      <module name="Hacker Rank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem_solving.warmup.diagonal_difference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem_solving.warmup.simple_array_sum.Solution" />
       <module name="Hacker Rank" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,7 @@
       <workItem from="1572609104277" duration="2802000" />
       <workItem from="1572711003429" duration="1556000" />
       <workItem from="1572748622384" duration="140000" />
-      <workItem from="1577367059226" duration="3524000" />
+      <workItem from="1577367059226" duration="4282000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577413181114</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Solve A Very Big Sum">
+      <created>1577413476748</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1577413476748</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -439,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solve Java 1D Array (Part 2) problem" />
     <MESSAGE value="Try solving Java Stack problem" />
     <MESSAGE value="Solve Java Stack problem" />
     <MESSAGE value="Still trying Count Triplets" />
@@ -464,29 +470,30 @@
     <MESSAGE value="Solve Simple Array Sum" />
     <MESSAGE value="Solve Compare the Triplets" />
     <MESSAGE value="Organize problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organize problems" />
+    <MESSAGE value="Solve A Very Big Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve A Very Big Sum" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577413180459">
+    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577413476632">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577413180459" />
-    <state width="1324" height="351" key="GridCell.Tab.0.bottom" timestamp="1577381093376">
+    <state x="214" y="96" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577413476632" />
+    <state width="1324" height="351" key="GridCell.Tab.0.bottom" timestamp="1577414199968">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="351" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1577381093376" />
-    <state width="1324" height="351" key="GridCell.Tab.0.center" timestamp="1577381093375">
+    <state width="1324" height="351" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1577414199968" />
+    <state width="1324" height="351" key="GridCell.Tab.0.center" timestamp="1577414199967">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="351" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1577381093375" />
-    <state width="1324" height="351" key="GridCell.Tab.0.left" timestamp="1577381093374">
+    <state width="1324" height="351" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1577414199967" />
+    <state width="1324" height="351" key="GridCell.Tab.0.left" timestamp="1577414199966">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="351" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1577381093374" />
-    <state width="1324" height="351" key="GridCell.Tab.0.right" timestamp="1577381093375">
+    <state width="1324" height="351" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1577414199966" />
+    <state width="1324" height="351" key="GridCell.Tab.0.right" timestamp="1577414199968">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="351" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577381093375" />
+    <state width="1324" height="351" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577414199968" />
     <state x="183" y="0" key="SettingsEditor" timestamp="1577412574367">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
