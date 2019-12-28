@@ -1,11 +1,10 @@
 // https://www.hackerrank.com/challenges/sherlock-and-anagrams
 
-package problems.sherlock_and_anagram;
+package problem_solving.strings.sherlock_and_anagram;
 
-import problems.input_reader.InputReader;
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.*;
-import java.util.stream.IntStream;
 
 public class Main {
 	
@@ -39,11 +38,12 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		String path = "/media/ritam/Storage/Projects/IdeaProjects/Playground/Hacker Rank/src/problems.sherlock_and_anagram/testcase.txt";
-		String input = InputReader.read(path);
+		Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+		int t = scanner.nextInt();
 		
-		IntStream.range(0, Integer.parseInt(input.split("\n")[0])).boxed().forEach(t -> {
-			System.out.println(sherlockAndAnagrams(input.split("\n")[t + 1]));
-		});
+		while (t-- > 0) {
+			String string = scanner.next();
+			System.out.println(sherlockAndAnagrams(string));
+		}
 	}
 }
