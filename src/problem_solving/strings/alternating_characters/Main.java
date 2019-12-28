@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/alternating-characters/problem
 
-package problem_solving.alternating_characters;
+package problem_solving.strings.alternating_characters;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

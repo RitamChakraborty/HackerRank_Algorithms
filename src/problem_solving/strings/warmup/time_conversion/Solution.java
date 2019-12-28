@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/time-conversion/problem
 
-package problem_solving.warmup.time_conversion;
+package problem_solving.strings.warmup.time_conversion;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

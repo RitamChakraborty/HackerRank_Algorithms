@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/staircase/problem
 
-package problem_solving.warmup.staircase;
+package problem_solving.strings.warmup.staircase;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

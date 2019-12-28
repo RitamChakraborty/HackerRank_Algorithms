@@ -1,12 +1,12 @@
 // https://www.hackerrank.com/challenges/two-strings
 
-package problems.two_strings;
+package problem_solving.strings.two_strings;
 
-import problems.input_reader.InputReader;
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
-import java.util.stream.IntStream;
 
 public class Main {
 	
@@ -33,13 +33,14 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-		String path = "/media/ritam/Storage/Projects/IdeaProjects/Playground/Hacker Rank/src/problems.two_strings/testcase.txt";
-		String[] input = InputReader.read(path).split("\n");
+		Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+		int t = scanner.nextInt();
 		
-		int t = Integer.parseInt(input[0]);
-		
-		IntStream.range(0, t).boxed().forEach(x -> {
-			System.out.println(twoStrings(input[(x * 2) + 1], input[(x * 2) + 2]));
-		});
+		while (t-- > 0) {
+			String string1 = scanner.next();
+			String string2 = scanner.next();
+			
+			System.out.println(twoStrings(string1, string2));
+		}
 	}
 }

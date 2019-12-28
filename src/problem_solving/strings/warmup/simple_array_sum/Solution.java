@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/simple-array-sum/problem
 
-package problem_solving.warmup.simple_array_sum;
+package problem_solving.strings.warmup.simple_array_sum;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

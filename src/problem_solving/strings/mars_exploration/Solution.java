@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/mars-exploration/problem
 
-package problem_solving.mars_exploration;
+package problem_solving.strings.mars_exploration;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

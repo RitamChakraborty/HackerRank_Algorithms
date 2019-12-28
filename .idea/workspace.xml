@@ -4,8 +4,20 @@
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/alternating_characters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/alternating_characters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/alternating_characters/testcase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/alternating_characters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/alternating_characters/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/mars_exploration/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/mars_exploration/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/a_very_big_sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/a_very_big_sum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/birthday_cake_candles/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/birthday_cake_candles/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/compare_the_triplets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/compare_the_triplets/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/diagonal_difference/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/diagonal_difference/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/mini_max_sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/mini_max_sum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/plus_minus/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/plus_minus/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/simple_array_sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/simple_array_sum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/solve_me_first/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/solve_me_first/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/staircase/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/staircase/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/time_conversion/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/time_conversion/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/two_strings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/two_strings/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/two_strings/testcase.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +70,11 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="problem_solving.strings" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem_solving.mars_exploration.Solution" />
@@ -98,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem_solving.warmup.time_conversion.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.strings.caesar_cipher.Solution" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem_solving.warmup.time_conversion.*" />
+          <option name="PATTERN" value="problem_solving.strings.caesar_cipher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +129,50 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problem_solving.strings.caesar_cipher.Solution" />
+      <option name="MAIN_CLASS_NAME" value="problem_solving.strings.mars_exploration.Solution" />
       <module name="Hacker Rank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="problem_solving.strings.caesar_cipher.*" />
+          <option name="PATTERN" value="problem_solving.strings.mars_exploration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.strings.warmup.staircase.Solution" />
+      <module name="Hacker Rank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem_solving.strings.warmup.staircase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.strings.warmup.birthday_cake_candles.Solution" />
+      <module name="Hacker Rank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem_solving.strings.warmup.birthday_cake_candles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem_solving.strings.warmup.time_conversion.Solution" />
+      <module name="Hacker Rank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem_solving.strings.warmup.time_conversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,7 +281,7 @@
       <workItem from="1577367059226" duration="8664000" />
       <workItem from="1577463313689" duration="13000" />
       <workItem from="1577463369246" duration="6399000" />
-      <workItem from="1577503435118" duration="550000" />
+      <workItem from="1577503435118" duration="1171000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -472,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577471346419</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Solve Alternating Characters">
+      <created>1577504183651</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1577504183652</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -505,7 +568,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Mark and Toy problem" />
     <MESSAGE value="Solve New Year Chaos problem" />
     <MESSAGE value="TLE in Frequency Queries problem" />
     <MESSAGE value="Bug in Merge Sort: Counting Inversions problem" />
@@ -530,16 +592,21 @@
     <MESSAGE value="Solve Time Conversion" />
     <MESSAGE value="Solve Caesar Cipher" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Solve Alternating Characters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Alternating Characters" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577471878640">
+    <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1577504368071">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577471878640" />
+    <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577504368071" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577504181165">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577504181165" />
     <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577471881055">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

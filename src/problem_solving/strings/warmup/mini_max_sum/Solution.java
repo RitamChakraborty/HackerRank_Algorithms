@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/mini-max-sum/problem
 
-package problem_solving.warmup.mini_max_sum;
+package problem_solving.strings.warmup.mini_max_sum;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

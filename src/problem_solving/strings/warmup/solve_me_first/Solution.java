@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/solve-me-first/problem
 
-package problem_solving.warmup.solve_me_first;
+package problem_solving.strings.warmup.solve_me_first;
 
 import java.util.Scanner;
 
