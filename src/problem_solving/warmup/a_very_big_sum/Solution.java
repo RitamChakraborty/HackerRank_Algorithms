@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/a-very-big-sum/problem
 
-package problem_solving.strings.warmup.a_very_big_sum;
+package problem_solving.warmup.a_very_big_sum;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

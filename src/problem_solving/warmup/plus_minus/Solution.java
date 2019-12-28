@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/plus-minus/problem
 
-package problem_solving.strings.warmup.plus_minus;
+package problem_solving.warmup.plus_minus;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

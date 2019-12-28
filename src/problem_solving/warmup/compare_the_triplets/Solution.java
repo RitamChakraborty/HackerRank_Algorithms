@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/compare-the-triplets/problem
 
-package problem_solving.strings.warmup.compare_the_triplets;
+package problem_solving.warmup.compare_the_triplets;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

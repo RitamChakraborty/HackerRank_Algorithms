@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/diagonal-difference/problem
 
-package problem_solving.strings.warmup.diagonal_difference;
+package problem_solving.warmup.diagonal_difference;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

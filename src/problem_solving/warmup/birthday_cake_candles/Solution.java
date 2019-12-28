@@ -1,6 +1,6 @@
 // https://www.hackerrank.com/challenges/birthday-cake-candles/problem
 
-package problem_solving.strings.warmup.birthday_cake_candles;
+package problem_solving.warmup.birthday_cake_candles;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
