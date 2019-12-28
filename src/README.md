@@ -18,8 +18,9 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 
 ### String
 #### Easy
-- [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)
 - [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem)
+- [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)
+ - [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)
 
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
@@ -39,7 +40,6 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
  - [Sherlock and Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
  - [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers/problem)
  - [Strings: Making Anagram](https://www.hackerrank.com/challenges/ctci-making-anagrams/problem)
- - [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)
  - [Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem)
  - [Luck Balance](https://www.hackerrank.com/challenges/luck-balance/problem)
  

@@ -1,11 +1,11 @@
 // https://www.hackerrank.com/challenges/alternating-characters/problem
 
-package problems.alternating_characters;
+package problem_solving.alternating_characters;
 
-import problems.input_reader.InputReader;
-
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.stream.IntStream;
+import java.util.Scanner;
 
 public class Main {
 	private static int alternatingCharacters(String s) {
@@ -29,13 +29,12 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		String path = "/media/ritam/Storage/Projects/IdeaProjects/Playground/Hacker Rank/src/problems.alternating_characters/testcase.txt";
-		String input = InputReader.read(path);
-		String[] inputs = input.split("\n");
+		Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+		int t = scanner.nextInt();
 		
-		int n = Integer.parseInt(inputs[0]);
-		IntStream.range(1, n + 1).forEach(i -> {
-			System.out.println(alternatingCharacters(inputs[i]));
-		});
+		while (t-- > 0) {
+			String string = scanner.next();
+			System.out.println(alternatingCharacters(string));
+		}
 	}
 }
