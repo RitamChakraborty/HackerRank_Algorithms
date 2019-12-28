@@ -4,20 +4,8 @@
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/alternating_characters/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/alternating_characters/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/mars_exploration/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/mars_exploration/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/a_very_big_sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/a_very_big_sum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/birthday_cake_candles/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/birthday_cake_candles/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/compare_the_triplets/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/compare_the_triplets/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/diagonal_difference/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/diagonal_difference/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/mini_max_sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/mini_max_sum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/plus_minus/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/plus_minus/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/simple_array_sum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/simple_array_sum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/solve_me_first/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/solve_me_first/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/staircase/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/staircase/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem_solving/warmup/time_conversion/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/warmup/time_conversion/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/two_strings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/two_strings/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/two_strings/testcase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/sherlock_and_valid_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/sherlock_and_valid_string/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/sherlock_and_valid_string/testcase.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +269,7 @@
       <workItem from="1577367059226" duration="8664000" />
       <workItem from="1577463313689" duration="13000" />
       <workItem from="1577463369246" duration="6399000" />
-      <workItem from="1577503435118" duration="1171000" />
+      <workItem from="1577503435118" duration="2014000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -535,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577504183652</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Solve Two Strings">
+      <created>1577504626691</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1577504626691</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -568,7 +563,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve New Year Chaos problem" />
     <MESSAGE value="TLE in Frequency Queries problem" />
     <MESSAGE value="Bug in Merge Sort: Counting Inversions problem" />
     <MESSAGE value="Solve Sherlock and Valid String problem" />
@@ -593,7 +587,8 @@
     <MESSAGE value="Solve Caesar Cipher" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Solve Alternating Characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Alternating Characters" />
+    <MESSAGE value="Solve Two Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Two Strings" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -603,10 +598,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577504368071" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577504181165">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577504626336">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577504181165" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577504626336" />
     <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577471881055">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

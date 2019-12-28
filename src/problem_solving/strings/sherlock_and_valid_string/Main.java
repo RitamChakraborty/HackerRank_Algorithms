@@ -1,13 +1,10 @@
 // https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem
 
-package problems.sherlock_and_valid_string;
+package problem_solving.strings.sherlock_and_valid_string;
 
-import problems.input_reader.InputReader;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.*;
 
 public class Main {
 	
@@ -53,9 +50,8 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		String path = "/media/ritam/Storage/Projects/IdeaProjects/Playground/Hacker Rank/src/problems.sherlock_and_valid_string/testcase.txt";
-		String input = InputReader.read(path);
-		
-		System.out.println(isValid(input));
+		Scanner scanner = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
+		String string = scanner.next();
+		System.out.println(isValid(string));
 	}
 }

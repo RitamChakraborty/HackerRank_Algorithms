@@ -22,7 +22,7 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)
 - [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)
 - [Two Strings](https://www.hackerrank.com/challenges/two-strings)
-
+- [Sherlock and Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
 
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
