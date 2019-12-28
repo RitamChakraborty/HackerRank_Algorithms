@@ -24,6 +24,7 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [Two Strings](https://www.hackerrank.com/challenges/two-strings)
 - [Sherlock and Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
 - [Sherlock and Anagram](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem)
+- [Camelcase](https://www.hackerrank.com/challenges/camelcase/problem)
 
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)

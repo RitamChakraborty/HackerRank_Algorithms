@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/sherlock_and_valid_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/sherlock_and_valid_string/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/sherlock_and_valid_string/testcase.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +266,7 @@
       <workItem from="1577367059226" duration="8664000" />
       <workItem from="1577463313689" duration="13000" />
       <workItem from="1577463369246" duration="6399000" />
-      <workItem from="1577503435118" duration="2014000" />
+      <workItem from="1577503435118" duration="2826000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -530,7 +527,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577504626691</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Solve Sherlock and Valid String">
+      <created>1577505476532</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1577505476532</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Solve Sherlock and Anagram">
+      <created>1577505673981</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1577505673981</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -563,8 +574,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="TLE in Frequency Queries problem" />
-    <MESSAGE value="Bug in Merge Sort: Counting Inversions problem" />
     <MESSAGE value="Solve Sherlock and Valid String problem" />
     <MESSAGE value="Solve Picking Numbers" />
     <MESSAGE value="Try solving Climbing the leaderboard but just one test case" />
@@ -588,7 +597,9 @@
     <MESSAGE value="Update README" />
     <MESSAGE value="Solve Alternating Characters" />
     <MESSAGE value="Solve Two Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Two Strings" />
+    <MESSAGE value="Solve Sherlock and Valid String" />
+    <MESSAGE value="Solve Sherlock and Anagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve Sherlock and Anagram" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -598,10 +609,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577504368071" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577505476313">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577505673737">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577505476313" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577505673737" />
     <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577471881055">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
