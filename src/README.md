@@ -3,8 +3,8 @@
 Hacker Rank problems solved in java. You can find all the problems in [Hacker-Rank](https://www.hackerrank.com)
 
 ## Problem Solving
+
 ### Warmup
-#### Easy
 - [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
 - [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
 - [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
@@ -17,7 +17,6 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 
 ### String
-#### Easy
 - [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem)
 - [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)
 - [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)
@@ -30,7 +29,6 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 
 ### Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
- - [2D Array](https://www.hackerrank.com/challenges/2d-array/problem)
  - [Arrays: Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)
  - [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem)
  - [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)

@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/problem_solving/strings/hackerrank_in_a_string/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_1d_array/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_1d_array/testcase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_comparator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_comparator/testcase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_hashset/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_hashset/testcase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_stack/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/java_stack/testcase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/twod_array/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/twod_array/testcase.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +295,9 @@
       <workItem from="1577503435118" duration="8270000" />
       <workItem from="1577609887078" duration="1201000" />
       <workItem from="1577630251325" duration="56000" />
-      <workItem from="1577765300601" duration="769000" />
+      <workItem from="1577765300601" duration="1329000" />
+      <workItem from="1578545045677" duration="13000" />
+      <workItem from="1578545119053" duration="5644000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -574,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577510927494</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Solve HackerRank in a String">
+      <created>1577769340301</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1577769340301</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -607,7 +626,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Try solving Climbing the leaderboard but just one test case" />
     <MESSAGE value="Solve Strings: Making Anagram" />
     <MESSAGE value="Solve Alternating Character" />
     <MESSAGE value="Solve Absolute Difference in an Array" />
@@ -632,7 +650,8 @@
     <MESSAGE value="Solve Sherlock and Anagram" />
     <MESSAGE value="Solve Camelcase" />
     <MESSAGE value="Solve Strong Password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve Strong Password" />
+    <MESSAGE value="Solve HackerRank in a String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve HackerRank in a String" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -642,26 +661,26 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1577510927280">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1578557611596">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1577510927280" />
-    <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577769204030">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578557611596" />
+    <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577769737588">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1577769204030" />
-    <state width="1324" height="255" key="GridCell.Tab.0.center" timestamp="1577769204030">
+    <state width="1324" height="255" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1577769737588" />
+    <state width="1324" height="255" key="GridCell.Tab.0.center" timestamp="1577769737587">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1577769204030" />
-    <state width="1324" height="255" key="GridCell.Tab.0.left" timestamp="1577769204029">
+    <state width="1324" height="255" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1577769737587" />
+    <state width="1324" height="255" key="GridCell.Tab.0.left" timestamp="1577769737587">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1577769204029" />
-    <state width="1324" height="255" key="GridCell.Tab.0.right" timestamp="1577769204030">
+    <state width="1324" height="255" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1577769737587" />
+    <state width="1324" height="255" key="GridCell.Tab.0.right" timestamp="1577769737587">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577769204030" />
+    <state width="1324" height="255" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577769737587" />
     <state x="183" y="0" key="SettingsEditor" timestamp="1577412574367">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
