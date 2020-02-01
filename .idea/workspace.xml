@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hacker Rank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/array_manipulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/array_manipulation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +294,7 @@
       <workItem from="1579896619688" duration="430000" />
       <workItem from="1579938547397" duration="81000" />
       <workItem from="1580408032787" duration="818000" />
-      <workItem from="1580577029147" duration="2533000" />
+      <workItem from="1580577029147" duration="2791000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -600,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578557634756</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Remove Jumping on the Clouds">
+      <created>1580584380316</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1580584380316</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -633,7 +637,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Alternating Character" />
     <MESSAGE value="Solve Absolute Difference in an Array" />
     <MESSAGE value="Solve Luck Balance" />
     <MESSAGE value="Wrong answer for Common Child problem" />
@@ -658,7 +661,8 @@
     <MESSAGE value="Solve Strong Password" />
     <MESSAGE value="Solve HackerRank in a String" />
     <MESSAGE value="Remove already done java problem and update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove already done java problem and update README.md" />
+    <MESSAGE value="Remove Jumping on the Clouds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Jumping on the Clouds" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -668,10 +672,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1578557634354">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580584380034">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578557634354" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580584380034" />
     <state x="469" y="105" key="FileChooserDialogImpl" timestamp="1579758127891">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -704,10 +708,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="14" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1580580988076" />
-    <state x="347" y="157" key="run.anything.popup" timestamp="1577381090456">
+    <state x="347" y="157" key="run.anything.popup" timestamp="1580584631099">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="347" y="157" key="run.anything.popup/0.0.1366.732@0.0.1366.732" timestamp="1577381090456" />
+    <state x="347" y="157" key="run.anything.popup/0.0.1366.732@0.0.1366.732" timestamp="1580584631099" />
     <state x="346" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1577421614814">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
