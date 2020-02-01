@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hacker Rank/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_1d_array/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_1d_array/testcase.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_comparator/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_comparator/testcase.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_hashset/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_hashset/testcase.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_stack/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/java_stack/testcase.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/twod_array/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/twod_array/testcase.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hacker Rank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/array_manipulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/array_manipulation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +49,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Data Structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
@@ -76,7 +67,7 @@
   <component name="RunManager" selected="Application.Solution (2)">
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem_solving.strings.strong_password.Solution" />
-      <module name="Hacker Rank" />
+      <module name="HackerRank Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problem_solving.strings.strong_password.*" />
@@ -89,7 +80,7 @@
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem_solving.strings.hackerrank_in_a_string.Solution" />
-      <module name="Hacker Rank" />
+      <module name="HackerRank Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problem_solving.strings.hackerrank_in_a_string.*" />
@@ -102,7 +93,7 @@
     </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem_solving.warmup.staircase.Solution" />
-      <module name="Hacker Rank" />
+      <module name="HackerRank Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problem_solving.warmup.staircase.*" />
@@ -115,7 +106,7 @@
     </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem_solving.warmup.birthday_cake_candles.Solution" />
-      <module name="Hacker Rank" />
+      <module name="HackerRank Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problem_solving.warmup.birthday_cake_candles.*" />
@@ -128,7 +119,7 @@
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem_solving.strings.caesar_cipher.Solution" />
-      <module name="Hacker Rank" />
+      <module name="HackerRank Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="problem_solving.strings.caesar_cipher.*" />
@@ -297,7 +288,16 @@
       <workItem from="1577630251325" duration="56000" />
       <workItem from="1577765300601" duration="1329000" />
       <workItem from="1578545045677" duration="13000" />
-      <workItem from="1578545119053" duration="5644000" />
+      <workItem from="1578545119053" duration="5766000" />
+      <workItem from="1579757541640" duration="159000" />
+      <workItem from="1579757712863" duration="16000" />
+      <workItem from="1579757996994" duration="399000" />
+      <workItem from="1579759335611" duration="8000" />
+      <workItem from="1579868345341" duration="1251000" />
+      <workItem from="1579896619688" duration="430000" />
+      <workItem from="1579938547397" duration="81000" />
+      <workItem from="1580408032787" duration="818000" />
+      <workItem from="1580577029147" duration="2533000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -593,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577769340301</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Remove already done java problem and update README.md">
+      <created>1578557634756</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1578557634756</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -626,7 +633,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Strings: Making Anagram" />
     <MESSAGE value="Solve Alternating Character" />
     <MESSAGE value="Solve Absolute Difference in an Array" />
     <MESSAGE value="Solve Luck Balance" />
@@ -651,7 +657,8 @@
     <MESSAGE value="Solve Camelcase" />
     <MESSAGE value="Solve Strong Password" />
     <MESSAGE value="Solve HackerRank in a String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solve HackerRank in a String" />
+    <MESSAGE value="Remove already done java problem and update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove already done java problem and update README.md" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -661,10 +668,14 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1578557611596">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1578557634354">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578557611596" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1578557634354" />
+    <state x="469" y="105" key="FileChooserDialogImpl" timestamp="1579758127891">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="469" y="105" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1579758127891" />
     <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577769737588">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -681,18 +692,18 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1324" height="255" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577769737587" />
-    <state x="183" y="0" key="SettingsEditor" timestamp="1577412574367">
+    <state x="183" y="0" key="SettingsEditor" timestamp="1579938572102">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="183" y="0" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1577412574367" />
-    <state x="362" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577630255833">
+    <state x="183" y="0" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1579938572102" />
+    <state x="362" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1579938547325">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="362" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1577630255833" />
-    <state x="14" y="0" key="new project wizard" timestamp="1577630299828">
+    <state x="362" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1579938547325" />
+    <state x="14" y="0" key="new project wizard" timestamp="1580580988076">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="14" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1577630299828" />
+    <state x="14" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1580580988076" />
     <state x="347" y="157" key="run.anything.popup" timestamp="1577381090456">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
