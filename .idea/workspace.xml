@@ -218,13 +218,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task id="LOCAL-00002" summary="Solve Java Hashset problem">
-      <created>1564318990823</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564318990823</updated>
-    </task>
     <task id="LOCAL-00003" summary="Solve Java Comparator problem">
       <created>1564320995531</created>
       <option name="number" value="00003" />
@@ -287,7 +280,7 @@
       <workItem from="1579896619688" duration="430000" />
       <workItem from="1579938547397" duration="81000" />
       <workItem from="1580408032787" duration="818000" />
-      <workItem from="1580577029147" duration="3594000" />
+      <workItem from="1580577029147" duration="3856000" />
     </task>
     <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
       <created>1564685633266</created>
@@ -611,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580585179608</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Remove New Year Chaos">
+      <created>1580585587325</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1580585587325</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -644,7 +644,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Wrong answer for Common Child problem" />
     <MESSAGE value="Solve Solve Me First" />
     <MESSAGE value="Solve Simple Array Sum" />
     <MESSAGE value="Solve Compare the Triplets" />
@@ -669,7 +668,8 @@
     <MESSAGE value="Remove Jumping on the Clouds" />
     <MESSAGE value="Remove Repeated String" />
     <MESSAGE value="Remove Arrays: Left Rotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Arrays: Left Rotation" />
+    <MESSAGE value="Remove New Year Chaos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove New Year Chaos" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -679,10 +679,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580585179079">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580585586744">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580585179079" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580585586744" />
     <state x="469" y="105" key="FileChooserDialogImpl" timestamp="1579758127891">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
