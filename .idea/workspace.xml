@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/mark_and_toys/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/mark_and_toys/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem_solving/strings/sherlock_and_valid_string/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem_solving/strings/sherlock_and_valid_string/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,14 +268,7 @@
       <workItem from="1579938547397" duration="81000" />
       <workItem from="1580408032787" duration="818000" />
       <workItem from="1580577029147" duration="4861000" />
-      <workItem from="1580626954602" duration="1321000" />
-    </task>
-    <task id="LOCAL-00008" summary="Still trying Count Triplets">
-      <created>1564934034485</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1564934034489</updated>
+      <workItem from="1580626954602" duration="1819000" />
     </task>
     <task id="LOCAL-00009" summary="Try another solution didn't work">
       <created>1564937045970</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580627711392</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Remove Mark and Toy">
+      <created>1580628465718</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1580628465719</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView">
@@ -646,7 +646,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Plus Minus" />
     <MESSAGE value="Solve Staircase" />
     <MESSAGE value="Solve Mini-Max Sum" />
     <MESSAGE value="Solve Birthday Cake Candles" />
@@ -671,7 +670,8 @@
     <MESSAGE value="Remove Sorting: Comparator" />
     <MESSAGE value="Remove Strings: Making Anagrams" />
     <MESSAGE value="Remove Sorting: Bubble Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Sorting: Bubble Sort" />
+    <MESSAGE value="Remove Mark and Toy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Mark and Toy" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -681,10 +681,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580627711120">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580628465448">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580627711120" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580628465448" />
     <state x="469" y="105" key="FileChooserDialogImpl" timestamp="1579758127891">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

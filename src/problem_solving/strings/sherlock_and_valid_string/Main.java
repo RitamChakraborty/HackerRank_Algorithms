@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
-	
 	private static String isValid(String s) {
 		char[] chars = s.toCharArray();
 		HashMap<Character, Integer> map = new HashMap<>();
