@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/ctci_making_anargrams/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/ctci_making_anargrams/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,14 +268,7 @@
       <workItem from="1579938547397" duration="81000" />
       <workItem from="1580408032787" duration="818000" />
       <workItem from="1580577029147" duration="4861000" />
-      <workItem from="1580626954602" duration="260000" />
-    </task>
-    <task id="LOCAL-00005" summary="Solve Java 1D Array (Part 2) problem">
-      <created>1564685633266</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564685633266</updated>
+      <workItem from="1580626954602" duration="517000" />
     </task>
     <task id="LOCAL-00006" summary="Try solving Java Stack problem">
       <created>1564730846523</created>
@@ -612,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580586786813</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Remove Sorting: Comparator">
+      <created>1580627309631</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1580627309634</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView">
@@ -645,7 +646,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Organize problems" />
     <MESSAGE value="Solve A Very Big Sum" />
     <MESSAGE value="Solve Diagonal Difference" />
     <MESSAGE value="Solve Plus Minus" />
@@ -670,7 +670,8 @@
     <MESSAGE value="Remove Minimum Swaps" />
     <MESSAGE value="Remove Array Manipulation" />
     <MESSAGE value="Remove Sparse Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Sparse Array" />
+    <MESSAGE value="Remove Sorting: Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Sorting: Comparator" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -680,10 +681,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580586786174">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580627309312">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580586786174" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580627309312" />
     <state x="469" y="105" key="FileChooserDialogImpl" timestamp="1579758127891">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
