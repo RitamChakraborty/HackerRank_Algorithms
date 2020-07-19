@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +39,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -202,18 +204,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -267,14 +257,9 @@
       <workItem from="1579938547397" duration="81000" />
       <workItem from="1580408032787" duration="818000" />
       <workItem from="1580577029147" duration="4861000" />
-      <workItem from="1580626954602" duration="2352000" />
-    </task>
-    <task id="LOCAL-00010" summary="Solution 3 didn't work">
-      <created>1564938485547</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1564938485547</updated>
+      <workItem from="1580626954602" duration="3785000" />
+      <workItem from="1580707030501" duration="15000" />
+      <workItem from="1595156397005" duration="300000" />
     </task>
     <task id="LOCAL-00011" summary="You got to be kidding me!">
       <created>1564940339722</created>
@@ -612,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580628950232</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Remove Luck Balance">
+      <created>1580629417017</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1580629417017</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -625,7 +617,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
@@ -635,17 +627,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Mini-Max Sum" />
     <MESSAGE value="Solve Birthday Cake Candles" />
     <MESSAGE value="Solve Time Conversion" />
     <MESSAGE value="Solve Caesar Cipher" />
@@ -670,7 +660,8 @@
     <MESSAGE value="Remove Sorting: Bubble Sort" />
     <MESSAGE value="Remove Mark and Toy" />
     <MESSAGE value="Remove Minimum Absolute Difference in an Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Minimum Absolute Difference in an Array" />
+    <MESSAGE value="Remove Luck Balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Luck Balance" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -680,10 +671,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580628950008">
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580629416820">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580628950008" />
+    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580629416820" />
     <state x="469" y="105" key="FileChooserDialogImpl" timestamp="1579758127891">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
@@ -712,10 +703,10 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state x="282" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1580628457731" />
-    <state x="362" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1579938547325">
+    <state x="362" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580707029311">
       <screen x="0" y="0" width="1366" height="732" />
     </state>
-    <state x="362" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1579938547325" />
+    <state x="362" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1580707029311" />
     <state x="14" y="0" key="new project wizard" timestamp="1580580988076">
       <screen x="0" y="0" width="1366" height="732" />
     </state>

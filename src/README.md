@@ -1,10 +1,6 @@
-# Hacker-Rank Problems
+# [HackerRank Algorithms](https://www.hackerrank.com/domains/algorithms)
 
-Hacker Rank problems solved in java. You can find all the problems in [Hacker-Rank](https://www.hackerrank.com)
-
-## Problem Solving
-
-### Warmup
+## Warmup
 - [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
 - [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
 - [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
@@ -16,7 +12,7 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
 - [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
 
-### String
+## String
 - [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem)
 - [Mars Exploration](https://www.hackerrank.com/challenges/mars-exploration/problem)
 - [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem)
@@ -27,7 +23,7 @@ Hacker Rank problems solved in java. You can find all the problems in [Hacker-Ra
 - [Strong Password](https://www.hackerrank.com/challenges/strong-password/problem)
 - [HackerRank in a String](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem)
 
-### Problems
+## Problems
  - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
  - [Arrays: Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)
  - [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem)
