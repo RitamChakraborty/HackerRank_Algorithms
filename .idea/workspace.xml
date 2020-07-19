@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +22,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Main.</find>
-      <find>ch2.length</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>n2</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HackerRank Data Structures" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -259,14 +249,7 @@
       <workItem from="1580577029147" duration="4861000" />
       <workItem from="1580626954602" duration="3785000" />
       <workItem from="1580707030501" duration="15000" />
-      <workItem from="1595156397005" duration="300000" />
-    </task>
-    <task id="LOCAL-00011" summary="You got to be kidding me!">
-      <created>1564940339722</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1564940339722</updated>
+      <workItem from="1595156397005" duration="462000" />
     </task>
     <task id="LOCAL-00012" summary="Try to solve Making Anagrams but got into TLE">
       <created>1565295004236</created>
@@ -604,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580629417017</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Update README.md">
+      <created>1595156716439</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1595156716441</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView">
@@ -636,7 +626,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Birthday Cake Candles" />
     <MESSAGE value="Solve Time Conversion" />
     <MESSAGE value="Solve Caesar Cipher" />
     <MESSAGE value="Update README" />
@@ -661,63 +650,32 @@
     <MESSAGE value="Remove Mark and Toy" />
     <MESSAGE value="Remove Minimum Absolute Difference in an Array" />
     <MESSAGE value="Remove Luck Balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Luck Balance" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1577506802312">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="135" y="0" key="CommitChangelistDialog2" timestamp="1595156716230">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="459" y="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.732@0.0.1366.732" timestamp="1577506802312" />
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2" timestamp="1580629416820">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="135" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595156716230" />
+    <state x="471" y="137" key="FileChooserDialogImpl" timestamp="1595156864201">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="365" y="72" width="908" height="486" key="CommitChangelistDialog2/0.0.1366.732@0.0.1366.732" timestamp="1580629416820" />
-    <state x="469" y="105" key="FileChooserDialogImpl" timestamp="1579758127891">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="471" y="137" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595156864201" />
+    <state x="516" y="279" key="Github.ShareDialog" timestamp="1595156835944">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="469" y="105" key="FileChooserDialogImpl/0.0.1366.732@0.0.1366.732" timestamp="1579758127891" />
-    <state width="1324" height="255" key="GridCell.Tab.0.bottom" timestamp="1577769737588">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="516" y="279" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1595156835944" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1595156787013">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.bottom/0.0.1366.732@0.0.1366.732" timestamp="1577769737588" />
-    <state width="1324" height="255" key="GridCell.Tab.0.center" timestamp="1577769737587">
-      <screen x="0" y="0" width="1366" height="732" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1595156787013" />
+    <state x="400" y="278" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1595156770451">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.center/0.0.1366.732@0.0.1366.732" timestamp="1577769737587" />
-    <state width="1324" height="255" key="GridCell.Tab.0.left" timestamp="1577769737587">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.left/0.0.1366.732@0.0.1366.732" timestamp="1577769737587" />
-    <state width="1324" height="255" key="GridCell.Tab.0.right" timestamp="1577769737587">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state width="1324" height="255" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1577769737587" />
-    <state x="183" y="0" key="SettingsEditor" timestamp="1579938572102">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state x="183" y="0" key="SettingsEditor/0.0.1366.732@0.0.1366.732" timestamp="1579938572102" />
-    <state x="282" y="96" key="Vcs.Push.Dialog.v2" timestamp="1580628457731">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state x="282" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.732@0.0.1366.732" timestamp="1580628457731" />
-    <state x="362" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580707029311">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state x="362" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.732@0.0.1366.732" timestamp="1580707029311" />
-    <state x="14" y="0" key="new project wizard" timestamp="1580580988076">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state x="14" y="0" key="new project wizard/0.0.1366.732@0.0.1366.732" timestamp="1580580988076" />
-    <state x="347" y="157" key="run.anything.popup" timestamp="1580584631099">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state x="347" y="157" key="run.anything.popup/0.0.1366.732@0.0.1366.732" timestamp="1580584631099" />
-    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1577421614814">
-      <screen x="0" y="0" width="1366" height="732" />
-    </state>
-    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup/0.0.1366.732@0.0.1366.732" timestamp="1577421614814" />
+    <state x="400" y="278" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595156770451" />
   </component>
 </project>
