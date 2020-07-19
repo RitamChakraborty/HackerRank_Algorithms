@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4e731190-75b7-4bcf-8f7f-993b395b612e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,6 +260,7 @@
       <workItem from="1580626954602" duration="3785000" />
       <workItem from="1580707030501" duration="15000" />
       <workItem from="1595156397005" duration="462000" />
+      <workItem from="1595157033182" duration="307000" />
     </task>
     <task id="LOCAL-00012" summary="Try to solve Making Anagrams but got into TLE">
       <created>1565295004236</created>
@@ -626,7 +637,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Solve Time Conversion" />
     <MESSAGE value="Solve Caesar Cipher" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Solve Alternating Characters" />
@@ -651,31 +661,36 @@
     <MESSAGE value="Remove Minimum Absolute Difference in an Array" />
     <MESSAGE value="Remove Luck Balance" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Change the position of README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the position of README.md" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="135" y="0" key="CommitChangelistDialog2" timestamp="1595156716230">
+    <state x="135" y="0" key="CommitChangelistDialog2" timestamp="1595157339732">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="135" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595156716230" />
+    <state x="135" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1595157339732" />
     <state x="471" y="137" key="FileChooserDialogImpl" timestamp="1595156864201">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="471" y="137" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595156864201" />
-    <state x="516" y="279" key="Github.ShareDialog" timestamp="1595156835944">
+    <state x="516" y="279" key="Github.ShareDialog" timestamp="1595157245200">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="516" y="279" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1595156835944" />
+    <state x="516" y="279" key="Github.ShareDialog/0.0.1366.768@0.0.1366.768" timestamp="1595157245200" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1595156787013">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1595156787013" />
-    <state x="400" y="278" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1595156770451">
+    <state x="283" y="115" key="Vcs.Push.Dialog.v2" timestamp="1595157065894">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="400" y="278" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595156770451" />
+    <state x="283" y="115" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595157065894" />
+    <state x="400" y="278" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1595157206757">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="400" y="278" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595157206757" />
   </component>
 </project>
